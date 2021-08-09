@@ -1,0 +1,35 @@
+table{
+    width: 100%;
+
+}
+
+table, th, td{
+    border: black solid 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+caption{
+    color: tomato;
+    font-size: 45px;
+    line-height: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+th{
+    color: blanchedalmond;
+    background-color: darkblue;
+}
+
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+/*
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}
